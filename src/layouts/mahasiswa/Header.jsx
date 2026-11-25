@@ -15,12 +15,14 @@ export default function Header() {
         .toUpperCase()
     : "P";
 
-  const titles = {
-    "/mahasiswa/dashboard": "Dashboard Pelajar",
-    "/mahasiswa/kursus": "Short Course",
-  };
-
-  const title = titles[location.pathname] ?? "Portal Pelajar";
+  let title = "Portal Pelajar";
+  if (location.pathname === "/mahasiswa/dashboard") {
+    title = "Dashboard Pelajar";
+  } else if (location.pathname === "/mahasiswa/kursus") {
+    title = "Short Course";
+  } else if (location.pathname.startsWith("/mahasiswa/kursus/")) {
+    title = "Detail Course";
+  }
 
   return (
     <header className="flex items-center justify-between">

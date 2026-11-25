@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { BookOpen, Clock3, UserRound } from "lucide-react";
 import { usePesertaKursus } from "../../hooks/usePesertaKursus";
 
@@ -36,6 +37,12 @@ function CourseRow({ course }) {
             {course.type}
           </span>
         </div>
+        <Link
+          to={`/mahasiswa/kursus/${course.id}`}
+          className="mt-3 inline-block text-[13px] font-bold text-[#167A61] hover:underline"
+        >
+          Lihat detail
+        </Link>
       </div>
     </li>
   );
