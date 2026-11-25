@@ -25,7 +25,7 @@ export default function Sidebar() {
 
       <aside className="relative flex h-full w-[260px] flex-shrink-0 flex-col overflow-hidden bg-gradient-to-r from-[#167A61] to-[#0E5C46] px-5 py-8 text-white">
         <div className="mb-6 px-2">
-          <h1 className="text-3xl font-black tracking-tight">u-Cademy</h1>
+          <h1 className="text-3xl font-black tracking-tight">u Academy</h1>
           <p className="mt-[2px] text-sm font-normal uppercase text-[#FCEEA7]">
             Pelajar
           </p>

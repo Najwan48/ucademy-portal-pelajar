@@ -48,7 +48,7 @@ export default function LoginForm({ role = "dosen" }) {
       <div className="bg-[#F8FAFA] w-[420px] rounded-[28px] shadow-2xl px-10 py-8 flex flex-col items-center">
         <div className="text-center mb-7">
           <h1 className="text-3xl font-black text-[#0E5C46] tracking-tight">
-            u-Cademy
+            u Academy
           </h1>
           <p className="text-sm font-medium text-gray-500 mt-1">
             {isAdmin
@@ -139,7 +139,7 @@ export default function LoginForm({ role = "dosen" }) {
               </p>
             ) : (
               <p>
-                {isMahasiswa ? "Admin uCademy?" : "Admin LMS?"}{" "}
+                {isMahasiswa ? "Admin u Academy?" : "Admin LMS?"}{" "}
                 <Link to="/login-admin" className="text-[#1A7A5F] font-bold hover:underline">
                   Login Admin
                 </Link>

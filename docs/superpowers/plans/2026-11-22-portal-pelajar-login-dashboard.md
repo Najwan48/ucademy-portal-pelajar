@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
-**Goal:** Membuka akses Pelajar ke uCademy melalui website sampai halaman Dashboard Pelajar.
+**Goal:** Membuka akses Pelajar ke u Academy melalui website sampai halaman Dashboard Pelajar.
 
 **Architecture:** Gunakan login API existing dan pola routing/protected route yang sudah dipakai Admin dan Pengajar. Tambah route login Pelajar, route protected `/mahasiswa/dashboard`, layout sederhana Portal Pelajar, dan dashboard awal tanpa perubahan backend.
 
@@ -12,7 +12,7 @@
 
 ## Global Constraints
 
-- Fokus hanya akses uCademy oleh Pelajar melalui website.
+- Fokus hanya akses u Academy oleh Pelajar melalui website.
 - Backend, database, endpoint API, Admin, Pengajar, Mobile, CBT, gamifikasi, dan sertifikat tidak diubah.
 - Gunakan project existing `D:\U-Academy\lms-frontend`.
 - Semua perubahan lokal; tidak pull, merge, atau push.
@@ -90,7 +90,7 @@
 
 - [ ] **Step 2: Buat Sidebar Pelajar**
 
-  Tampilkan brand uCademy, label “Pelajar”, menu “Dashboard”, dan tombol
+  Tampilkan brand u Academy, label “Pelajar”, menu “Dashboard”, dan tombol
   logout. Jangan menambahkan menu fitur lain.
 
 - [ ] **Step 3: Tambahkan protected route di `src/App.jsx`**
@@ -127,7 +127,7 @@
 
 - [ ] **Step 2: Buat dashboard minimum**
 
-  Tampilkan heading “Dashboard Pelajar”, teks “Portal Pelajar uCademy”, satu
+  Tampilkan heading “Dashboard Pelajar”, teks “Portal Pelajar u Academy”, satu
   card “Course Saya”, dan pesan kosong yang jelas. Jangan membuat daftar course
   palsu atau menambah API baru.
 

@@ -1,14 +1,14 @@
-# Draft Perencanaan Akses Pelajar uCademy melalui Website
+# Draft Perencanaan Akses Pelajar u Academy melalui Website
 
 Status: draft, menunggu arahan dosen
 Tanggal: 22 November 2026
 
 ## 1. Fokus Skripsi
 
-Membuat sistem uCademy dapat diakses oleh Pelajar melalui website.
+Membuat sistem u Academy dapat diakses oleh Pelajar melalui website.
 
 Skripsi berfokus pada sisi akses dan pengalaman Pelajar, bukan pengembangan
-seluruh role atau seluruh platform uCademy.
+seluruh role atau seluruh platform u Academy.
 
 Pengerjaan utama berada di project frontend:
 
@@ -23,7 +23,7 @@ dengan dosen.
 ## 2. Tujuan
 
 - Menyediakan akses website untuk Pelajar.
-- Memudahkan Pelajar masuk ke sistem uCademy.
+- Memudahkan Pelajar masuk ke sistem u Academy.
 - Memudahkan Pelajar mengakses course yang diikuti.
 - Menampilkan pembelajaran Pelajar melalui satu portal website.
 
@@ -49,7 +49,7 @@ dengan dosen.
 - Gamifikasi evaluasi Pengajar.
 - Pengembangan atau perubahan sertifikat.
 - Perubahan backend/API sebelum ada arahan dosen.
-- Perombakan seluruh sistem uCademy.
+- Perombakan seluruh sistem u Academy.
 
 Tugas, presensi, forum, nilai, notifikasi, dan profil hanya dikerjakan jika
 terbukti diperlukan agar Pelajar dapat mengakses sistem dan sesuai arahan
@@ -99,7 +99,7 @@ Pelajar membuka website
 
 ## 8. Target Progres Minggu Ini
 
-- Fokus skripsi sudah ditetapkan: akses uCademy oleh Pelajar melalui website.
+- Fokus skripsi sudah ditetapkan: akses u Academy oleh Pelajar melalui website.
 - Alur akses Pelajar sudah dirancang.
 - Daftar halaman website Pelajar sudah dibuat.
 - Kondisi backend/API sudah dicatat tanpa mengubah kode.

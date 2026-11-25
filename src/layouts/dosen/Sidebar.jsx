@@ -37,7 +37,7 @@ export default function Sidebar(role = "dosen") {
       <aside className="w-[260px] bg-gradient-to-r from-[#167A61] to-[#0E5C46] text-white h-full flex flex-col px-5 py-8 flex-shrink-0 relative overflow-hidden">
         {/* Logo */}
         <div className="mb-6 px-2">
-          <h1 className="text-3xl font-black tracking-tight">u-Cademy</h1>
+          <h1 className="text-3xl font-black tracking-tight">u Academy</h1>
           <p className="text-sm text-[#FCEEA7] font-normal uppercase mt-[2px]">
             Pengajar
           </p>

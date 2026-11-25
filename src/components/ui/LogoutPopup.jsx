@@ -16,7 +16,7 @@ export default function LogoutPopup({ isOpen, onClose, onConfirm }) {
           </h3>
           <p className="text-[13px] text-gray-400 leading-relaxed">
             Sesi Anda akan berakhir dan Anda perlu masuk kembali untuk mengakses
-            u-Cademy.
+            u Academy.
           </p>
         </div>
 

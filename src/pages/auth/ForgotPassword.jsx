@@ -35,7 +35,7 @@ export default function ForgotPassword() {
       {/* Logo */}
       <div className="text-center mb-10">
         <h1 className="text-[32px] font-black text-[#fff] mb-2 tracking-tight">
-          u-Cademy
+          u Academy
         </h1>
         <p className="text-[14px] text-[#fff] font-medium">
           LMS Universitas Ibn Khaldun Bogor

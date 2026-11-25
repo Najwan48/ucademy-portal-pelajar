@@ -70,12 +70,12 @@ export default function RegisterForm() {
         {/* Header */}
         <div className="text-center mb-6">
           <img
-            src="/uCademy-icon.svg"
-            alt="u-Cademy Logo"
+            src="/u-academy-icon.svg"
+            alt="u Academy Logo"
             className="w-16 h-16 mx-auto"
           />
           <h1 className="text-3xl font-black text-[#0E5C46] tracking-tight">
-            u-Cademy
+            u Academy
           </h1>
           <p className="text-sm font-medium text-gray-400 mt-1">
             Registrasi Akun Pengajar

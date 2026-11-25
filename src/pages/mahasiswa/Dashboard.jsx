@@ -86,7 +86,7 @@ export default function MahasiswaDashboard() {
       <section>
         <h1 className="text-2xl font-bold text-[#1E293B]">Dashboard Pelajar</h1>
         <p className="mt-1 text-sm text-[#64748B]">
-          Portal Pelajar uCademy untuk mengakses pembelajaran short course.
+          Portal Pelajar u Academy untuk mengakses pembelajaran short course.
         </p>
       </section>
 
