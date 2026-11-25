@@ -15,10 +15,12 @@ export default function Header() {
         .toUpperCase()
     : "P";
 
-  const title =
-    location.pathname === "/mahasiswa/dashboard"
-      ? "Dashboard Pelajar"
-      : "Portal Pelajar";
+  const titles = {
+    "/mahasiswa/dashboard": "Dashboard Pelajar",
+    "/mahasiswa/kursus": "Short Course",
+  };
+
+  const title = titles[location.pathname] ?? "Portal Pelajar";
 
   return (
     <header className="flex items-center justify-between">

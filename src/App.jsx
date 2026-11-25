@@ -30,6 +30,7 @@ import VerifikasiSertifikat from "./pages/dosen/VerifikasiSertifikat";
 import HasilEvaluasi from "./pages/dosen/HasilEvaluasi";
 import ProfilPengajar from "./pages/dosen/ProfilPengajar";
 import MahasiswaDashboard from "./pages/mahasiswa/Dashboard";
+import DaftarKursus from "./pages/mahasiswa/DaftarKursus";
 
 import AdminDashboard from "./pages/admin/Dashboard";
 import KelolaPengguna from "./pages/admin/KelolaPengguna";
@@ -121,6 +122,7 @@ function App() {
           }
         >
           <Route path="dashboard" element={<MahasiswaDashboard />} />
+          <Route path="kursus" element={<DaftarKursus />} />
         </Route>
 
         {/* 5. Grouping Halaman Admin (Protected) */}

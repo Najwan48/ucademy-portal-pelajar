@@ -4,6 +4,11 @@ import { useAuth } from "../../hooks/useAuth";
 import LogoutPopup from "../../components/ui/LogoutPopup";
 import bgAside from "../../assets/images/bg-aside.svg";
 
+const menuItems = [
+  { name: "Dashboard", path: "/mahasiswa/dashboard" },
+  { name: "Short Course", path: "/mahasiswa/kursus" },
+];
+
 export default function Sidebar() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -29,17 +34,20 @@ export default function Sidebar() {
         <hr className="mb-6 border-white/10" />
 
         <nav className="flex flex-1 flex-col gap-1">
-          <button
-            type="button"
-            onClick={() => navigate("/mahasiswa/dashboard")}
-            className={`w-full rounded-lg px-4 py-3 text-left text-[15px] transition-all duration-200 ${
-              location.pathname === "/mahasiswa/dashboard"
-                ? "bg-white font-semibold text-[#0E5C46] shadow-sm"
-                : "font-normal text-white/75 hover:bg-white/10 hover:text-white"
-            }`}
-          >
-            Dashboard
-          </button>
+          {menuItems.map((item) => (
+            <button
+              key={item.path}
+              type="button"
+              onClick={() => navigate(item.path)}
+              className={`w-full rounded-lg px-4 py-3 text-left text-[15px] transition-all duration-200 ${
+                location.pathname === item.path
+                  ? "bg-white font-semibold text-[#0E5C46] shadow-sm"
+                  : "font-normal text-white/75 hover:bg-white/10 hover:text-white"
+              }`}
+            >
+              {item.name}
+            </button>
+          ))}
         </nav>
 
         <div className="relative -mx-5 -mb-8 flex h-[240px] items-end px-5 pb-8">
